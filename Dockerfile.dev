@@ -66,3 +66,5 @@ WORKDIR /workspaces
 
 # Set the default shell to bash instead of sh
 ENV SHELL /bin/bash
+
+RUN ln -s /workspaces/hacore/share/internauten/FellerWiserSMB/custom_components/wiserbyfeller /workspaces/hacore/config/custom_components/wiserbyfeller
